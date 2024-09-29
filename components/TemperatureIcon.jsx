@@ -1,13 +1,12 @@
 import { View, Text } from "react-native";
-
 import React from "react";
 
-function index(props) {
+const TemperatureIcon = () => {
   return (
     <View>
-      <Text>First Application</Text>
+      <Text>TemperatureIcon</Text>
     </View>
   );
-}
+};
 
-export default index;
+export default TemperatureIcon;
